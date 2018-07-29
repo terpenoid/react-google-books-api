@@ -1,0 +1,48 @@
+html {
+  font-family: sans-serif;
+}
+
+.empty {
+  margin: 1em;
+  color: gray;
+}
+
+.book {
+  border: 1px solid green;
+  margin: .2em;
+  padding: .2em;
+  width: 300px;
+  min-height: 300px;
+  float: left;
+}
+
+.book > .short {
+  text-align: center;
+}
+
+.book .thumbnail {
+  cursor: pointer;
+  margin: 0 auto;
+  border: 1px solid green;
+  width: 128px;
+  height: 192px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.book .title {
+  font-weight: bold;
+}
+
+.book .authors {
+
+}
+
+.book .description {
+
+}
+
+.book .show-btn {
+  cursor: pointer;
+  background: #ddd;
+}
